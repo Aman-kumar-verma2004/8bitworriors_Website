@@ -12,7 +12,7 @@ export default function Home() {
       
       <HeroSecton />
       <Fotter />
-
+      
 
     </main>
   );

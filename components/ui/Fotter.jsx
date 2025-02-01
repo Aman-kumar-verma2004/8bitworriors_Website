@@ -10,7 +10,7 @@ const Fotter = () => {
                             <img alt="" loading="lazy" width="32" height="32" decoding="async" src="/favicon.svg" style={{ color: 'transparent' }} />
                             <span className="text-xl font-semibold text-gray-900 dark:text-gray-100">Flowbite React</span>
                         </a>
-                        <p className="mb-3 mt-4 max-w-sm text-gray-600 dark:text-gray-400">Flowbite is an ecosystem built on top of Tailwind CSS including a component library, block sections, a Figma design system and other resources.</p>
+                        <p className="mb-3 mt-4 max-w-sm text-gray-600 dark:text-gray-400">8-Bit Warriors is a dynamic tech community provides a collaborative ecosystem with coding resources, design assets, real-world projects, and networking opportunities.</p>
                         <p className="mb-3 mt-4 max-w-sm text-gray-600 dark:text-gray-400">Code licensed <a href="https://github.com/themesberg/flowbite-react/blob/main/LICENSE" rel="nofollow noopener noreferrer" target="_blank" className="text-cyan-600 hover:underline">MIT</a>, docs <a href="https://creativecommons.org/licenses/by/3.0/" rel="nofollow noopener noreferrer" target="_blank" className="text-cyan-600 hover:underline">CC BY 3.0</a></p>
                     </div>
                     <div className="grid grid-cols-2 gap-8 sm:mt-4 sm:grid-cols-3 sm:gap-6">
