@@ -29,23 +29,18 @@ export default function Features() {
               </a>
             }
             icon={item.icon}
-            className={i === 3 || i === 6 ? "" : ""} />
+            className="transition-transform transform hover:scale-105 hover:shadow-xl hover:bg-neutral-100 rounded-lg p-4"/>
         ))}
       </BentoGrid>
     </section>
   );
 }
 
-
-const Skeleton = () => (
-  <div
-    className="flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100"></div>
-);
 const items = [
   {
     title: "Events",
     description: "Enhance your knowledge through engaging and hands-on sessions.",
-    header: <img src="/event1.jpg" alt="Header Image" className="your-image-class" />,
+    header: <img src="/event1.jpg" alt="Header Image" className="cursor-pointer" />,
     icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
     link: "/events", 
   },
@@ -67,8 +62,8 @@ const items = [
     title: "Hackathons & Competitions",
     description:
       "Demonstrate your talents and earn amazing rewards.",
-    header: <img src="/h1.jpg" alt="Header Image" className="" />,
-    icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
+    header: <img src="/h1.jpg" alt="Header Image" className="cursor-pointer" />,
+    icon: <IconTableColumn className="h-4 w-4 text-neutral-500 " />,
     link: "/hackathons",
   },
   {
