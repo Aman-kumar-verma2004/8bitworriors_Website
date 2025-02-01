@@ -9,7 +9,7 @@ import Features from "@/components/Features";
 
 export default function Home() {
   return (
-    <main className="overflow-hidden" >
+    <main className="overflow-hidden bg-black" >
       
       <HeroSecton />
       <Features />
