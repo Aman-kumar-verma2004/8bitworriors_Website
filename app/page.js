@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 
 export default function Home() {
   return (
-    <main className="" >
+    <main className="overflow-hidden" >
       
       <HeroSecton />
       <Fotter />
