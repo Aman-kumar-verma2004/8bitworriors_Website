@@ -74,13 +74,13 @@ const HeroSecton = () => {
                                         </defs>
                                     </svg>
 
-                                    <span className="ml-2 text-base font-normal text-white"> 42 new design inspiration was added last week </span>
+                                    <span className="ml-2 text-base font-normal text-white"> </span>
                                 </div>
                             </div>
                         </div>
 
                         <div className="mt-8 md:absolute md:mt-0 md:top-32 lg:top-0 md:right-0">
-                            <img className="w-full max-w-xs mx-auto lg:max-w-lg xl:max-w-xl" src="/10.jpg" alt="" />
+                            <img className="w-full max-w-3xl mx-auto lg:max-w-4xl xl:max-w-5xl h-auto lg:h-auto xl:h-auto" src="/1stfinal.png" alt="" />
                         </div>
                     </div>
                 </div>
