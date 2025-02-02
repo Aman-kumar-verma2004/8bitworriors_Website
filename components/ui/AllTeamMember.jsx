@@ -53,9 +53,9 @@ const allTeamMembers = [
         },
     },
     {
-        name: "Rajveer Singh ",
-        role: "Technical Lead",
-        image: "/Team Image/techlead.jpg",
+        name: "Rajveer Singh Parmar",
+        role: "Creative Team",
+        image: "/Team Image/RAJVEER SINGH PARMAR.jpg",
         socialLinks: {
             instagram: "#",
             github: "#",
@@ -63,9 +63,9 @@ const allTeamMembers = [
         },
     },
     {
-        name: "Jane Smith",
-        role: "Technical Lead",
-        image: "/Team Image/techlead.jpg",
+        name: "Radhika Thakur",
+        role: "Content Team",
+        image: "/Team Image/radhika.jpg",
         socialLinks: {
             instagram: "#",
             github: "#",
@@ -73,9 +73,9 @@ const allTeamMembers = [
         },
     },
     {
-        name: "Jane Smith",
-        role: "Technical Lead",
-        image: "/Team Image/techlead.jpg",
+        name: "Manshvi Jaiswal",
+        role: "Marketing Team",
+        image: "/Team Image/MANSHVI JAISWAL.jpg",
         socialLinks: {
             instagram: "#",
             github: "#",
@@ -83,9 +83,9 @@ const allTeamMembers = [
         },
     },
     {
-        name: "Jane Smith",
-        role: "Technical Lead",
-        image: "/Team Image/techlead.jpg",
+        name: "Kanchan Kushwaha",
+        role: "Reasearch and Development",
+        image: "/Team Image/KANCHAN KUSHWAHA.jpg",
         socialLinks: {
             instagram: "#",
             github: "#",
@@ -143,9 +143,9 @@ const allTeamMembers = [
         },
     },
     {
-        name: "Jane Smith",
-        role: "Technical Lead",
-        image: "/Team Image/techlead.jpg",
+        name: "Ayushman Gupta",
+        role: "Creative Team",
+        image: "/Team Image/Ayushman.jpg",
         socialLinks: {
             instagram: "#",
             github: "#",
@@ -153,9 +153,9 @@ const allTeamMembers = [
         },
     },
     {
-        name: "Jane Smith",
-        role: "Technical Lead",
-        image: "/Team Image/techlead.jpg",
+        name: "Aditya Rai",
+        role: "Marketing Lead",
+        image: "/Team Image/ADITYA RAI.jpg",
         socialLinks: {
             instagram: "#",
             github: "#",
@@ -163,9 +163,9 @@ const allTeamMembers = [
         },
     },
     {
-        name: "Jane Smith",
-        role: "Technical Lead",
-        image: "/Team Image/techlead.jpg",
+        name: "Abhishek Goswami",
+        role: "Graphic Team",
+        image: "/Team Image/ABHISHEK GOSWAMI.jpg",
         socialLinks: {
             instagram: "#",
             github: "#",
@@ -173,9 +173,9 @@ const allTeamMembers = [
         },
     },
     {
-        name: "Jane Smith",
-        role: "Technical Lead",
-        image: "/Team Image/techlead.jpg",
+        name: "Twinkle Kasera",
+        role: "Research and Developemnt",
+        image: "/Team Image/TWINKLE KASERA.jpg",
         socialLinks: {
             instagram: "#",
             github: "#",
@@ -233,9 +233,9 @@ const allTeamMembers = [
         },
     },
     {
-        name: "Jane Smith",
-        role: "Technical Lead",
-        image: "/Team Image/techlead.jpg",
+        name: "Kritika Mittal",
+        role: "Content Team",
+        image: "/Team Image/KRITIKA MITTAL.jpg",
         socialLinks: {
             instagram: "#",
             github: "#",
@@ -243,9 +243,9 @@ const allTeamMembers = [
         },
     },
     {
-        name: "Jane Smith",
-        role: "Technical Lead",
-        image: "/Team Image/techlead.jpg",
+        name: "Divyanshu Singh Chauhan",
+        role: "MArketing Team",
+        image: "/Team Image/DIVYANSHU SINGH CHAUHAN.jpg",
         socialLinks: {
             instagram: "#",
             github: "#",
@@ -253,9 +253,9 @@ const allTeamMembers = [
         },
     },
     {
-        name: "Jane Smith",
-        role: "Technical Lead",
-        image: "/Team Image/techlead.jpg",
+        name: "Charu Jain",
+        role: "Graphic Team",
+        image: "/Team Image/CHARU JAIN.jpg",
         socialLinks: {
             instagram: "#",
             github: "#",
@@ -270,7 +270,7 @@ const AllTeamMembers = () => {
     return (
         <div className="max-w-6xl mx-auto py-20 px-5">
             <h1 className="text-5xl font-extrabold text-center text-white pb-10">
-                Our Full Team
+                Our Core Team
             </h1>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
                 {allTeamMembers.map((member, index) => (
