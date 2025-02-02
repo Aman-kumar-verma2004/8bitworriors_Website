@@ -80,7 +80,8 @@ const HeroSecton = () => {
                         </div>
 
                         <div className="mt-8 md:absolute md:mt-0 md:top-32 lg:top-0 md:right-0">
-                            <img className="w-full max-w-2xl mx-auto lg:max-w-3xl xl:max-w-xxl h-auto lg:h-auto 4xl:h-auto object-contain" src="/landingpagepic.png" alt="" />
+                            <img className="w-full max-w-2xl mx-auto lg:max-w-3xl xl:max-w-xxl h-auto lg:h-auto 4xl:h-auto object-contain mr-20 mt-[-60px] hover:scale-105 transition-all" src="/ionic-removebg-preview.png" alt="" />
+                            
                         </div>
                     </div>
                 </div>
