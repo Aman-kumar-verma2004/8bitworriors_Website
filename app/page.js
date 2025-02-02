@@ -9,14 +9,14 @@ import Features from "@/components/Features";
 
 export default function Home() {
   return (
-    <main className="" >
+    <main className="overflow-hidden bg-black" >
       
       <HeroSecton />
       <Features />
 
 
       <Fotter />
-
+      
 
     </main>
   );
