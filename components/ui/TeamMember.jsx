@@ -3,7 +3,7 @@ import { IoLogoInstagram } from "react-icons/io5";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
 
- const TeamMember = ({ name, role, image, socialLinks }) => {
+ const TeamMember = ({ name, role, image, socialLinks = {} }) => {
     return (
         <div className="relative w-[300px] h-[400px] m-5 overflow-hidden rounded-2xl shadow-lg bg-[#43346d99] flex justify-center items-center group">
             <div className="w-full h-full">
@@ -18,8 +18,8 @@ import { FaLinkedin } from "react-icons/fa6";
                 </div>
                 <ul className="flex mt-2">
                     {socialLinks.instagram && (
-                        <li className="mx-2.5 transform translate-y-10 transition-all duration-500 delay-[0.2s] opacity-0 group-hover:translate-y-0 group-hover:opacity-100">
-                            <a href={socialLinks.instagram} className="text-white text-2xl">
+                        <li className="mx-2.5 transform translate-y-10 transition-all duration-500 delay-\[0.2s\] opacity-0 group-hover:translate-y-0 group-hover:opacity-100">
+                            <a href={socialLinks?.instagram} className="text-white text-2xl">
                                 <IoLogoInstagram />
                             </a>
                         </li>
