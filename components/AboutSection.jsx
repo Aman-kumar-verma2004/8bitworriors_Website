@@ -1,7 +1,7 @@
-import type React from "react"
+import React from "react"
 import { motion } from "framer-motion"
 
-const AboutSection: React.FC = () => {
+const AboutSection = () => {
   return (
     <div className="bg-black text-white min-h-screen flex items-center justify-center relative overflow-hidden">
       {/* Abstract tech pattern background */}
