@@ -59,7 +59,7 @@ export default function EventPage() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-r from-[#267f38] to-slate-800">
+    <div className="min-h-screen bg-black">
       <EventBanner />
       <div className="container mx-auto px-4 py-8">
         <EventToggle activeTab={activeTab} setActiveTab={setActiveTab} />

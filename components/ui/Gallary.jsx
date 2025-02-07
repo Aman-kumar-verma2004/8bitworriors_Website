@@ -3,52 +3,52 @@ import Image from "next/image"
 const ImageGallery = () =>  {
   const images = [
     {
-      src: "/1.png?height=400&width=600",
+      src: "/ImageGallary/?height=400&width=600",
       alt: "Misty mountain peaks at sunrise",
       className: "col-span-1 row-span-1",
     },
     {
-      src: "/2.png?height=800&width=600",
+      src: "/ImageGallery/i1.jpg?height=800&width=600",
       alt: "Foggy forest road",
       className: "col-span-1 row-span-2",
     },
     {
-      src: "/3.png?height=800&width=800",
+      src: "/ImageGallery/i9.jpg?height=800&width=800",
       alt: "Mountain peaks under starry sky",
       className: "col-span-2 row-span-2",
     },
     {
-      src: "/4.png?height=800&width=600",
+      src: "/ImageGallary/?height=800&width=600",
       alt: "Misty mountain peaks with blue tones",
       className: "col-span-1 row-span-2",
     },
     {
-      src: "/5.png?height=400&width=600",
+      src: "/ImageGallary/?height=400&width=600",
       alt: "Foggy forest landscape",
       className: "col-span-1 row-span-1",
     },
     {
-      src: "/6.png?height=400&width=600",
+      src: "/ImageGallary/?height=400&width=600",
       alt: "Red and white mushroom",
       className: "col-span-1 row-span-1",
     },
     {
-      src: "/7.png?height=400&width=600",
+      src: "/ImageGallary/?height=400&width=600",
       alt: "Mountain landscape",
       className: "col-span-1 row-span-1",
     },
     {
-      src: "/2.png?height=400&width=600",
+      src: "/ImageGallary/?height=400&width=600",
       alt: "Forest scene",
       className: "col-span-1 row-span-1",
     },
     {
-      src: "/5.png?height=400&width=600",
+      src: "/ImageGallary/?height=400&width=600",
       alt: "Mountain vista",
       className: "col-span-2 row-span-1",
     },
     {
-      src: "/6.png?height=400&width=600",
+      src: "/ImageGallary/?height=400&width=600",
       alt: "Red and white mushroom",
       className: "col-span-1 row-span-1",
     },

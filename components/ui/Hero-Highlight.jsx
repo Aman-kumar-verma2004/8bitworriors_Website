@@ -32,7 +32,7 @@ const HeroSecton = () => {
                             <a href="#" title="" className="text-base font-normal text-gray-400 transition-all duration-200 hover:text-white"> Resources </a>
                             <a href="#" title="" className="text-base font-normal text-gray-400 transition-all duration-200 hover:text-white"> Tools </a>
                             <a href="#" title="" className="text-base font-normal text-gray-400 transition-all duration-200 hover:text-white"> Events </a>
-                            <a href="#" title="" className="text-base font-normal text-gray-400 transition-all duration-200 hover:text-white"> About Us </a>
+                            <a href="./AboutSection.jsx" title="" className="text-base font-normal text-gray-400 transition-all duration-200 hover:text-white"> About Us </a>
                         </nav>
                     </div>
 
