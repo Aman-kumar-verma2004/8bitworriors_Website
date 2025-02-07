@@ -1,6 +1,6 @@
 export default function EventToggle({ activeTab, setActiveTab }) {
   return (
-    <div className="flex justify-center space-x-2 mb-10 p-2 rounded-lg shadow-md">
+    <div className="flex justify-center space-x-2 b-15 mt-2 mb-[8rem] p-2 rounded-lg shadow-md">
   <button
     type="button"
     className={`px-6 py-2 text-sm font-semibold rounded-lg transition-all duration-300

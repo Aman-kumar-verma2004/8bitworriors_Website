@@ -12,7 +12,7 @@ export default function EventCard({ event, onClick }) {
     <img
       src={event.image || "/2.png"}
       alt={event.title}
-      className="w-full h-48 sm:h-56 lg:h-64 object-cover transition-opacity duration-500 group-hover:opacity-30"
+      className="w-full h-52 sm:h-56 lg:h-60 object-cover transition-opacity duration-500 group-hover:opacity-30"
     />
 
     {/* Glassmorphism Effect on Hover */}
