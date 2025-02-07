@@ -5,7 +5,7 @@ import { FaLinkedin } from "react-icons/fa6";
 
  const TeamMember = ({ name, role, image, socialLinks = {} }) => {
     return (
-        <div className="relative w-[300px] h-[400px] m-5 overflow-hidden rounded-2xl shadow-lg bg-[#43346d99] flex justify-center items-center group">
+        <div className="relative w-[250px] h-[320px] sm:w-[280px] sm:h-[350px] md:w-[300px] md:h-[370px] m-5 overflow-hidden rounded-2xl shadow-lg bg-[#43346d99] flex justify-center items-center group">
             <div className="w-full h-full">
                 <img src={image || "/placeholder.svg"} alt={name} className="w-full h-full object-cover" />
             </div>
