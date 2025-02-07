@@ -3,9 +3,8 @@ import { useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
 import { motion } from "framer-motion";
 import { cn } from "@/lib/utils";
-import { useRouter } from "next/navigation"; // Import useRouter for navigation
+import { useRouter } from "next/navigation"; 
 import TeamMember from "./TeamMember";
-
 
 const teamMembers = [
     {
@@ -41,7 +40,7 @@ const teamMembers = [
 ];
 
 const TeamSection = ({ className }) => {
-    const router = useRouter(); // Initialize the router
+    const router = useRouter();
     const gridRef = useRef(null);
     const { scrollYProgress } = useScroll({
         container: gridRef,
@@ -58,14 +57,17 @@ const TeamSection = ({ className }) => {
     const thirdPart = teamMembers.slice(2 * third);
 
     return (
-        <div className={cn("items-start w-full", className)} ref={gridRef}>
+        <div 
+            className={cn("w-full flex flex-col items-center", className)} 
+            ref={gridRef}
+        >
             {/* Meet Our Team Heading */}
-            <h1 className="text-5xl font-bold text-center text-white py-10 mb-[-50px]">
+            <h1 className="text-5xl font-bold text-center text-white py-10">
                 Meet Our Team
             </h1>
 
             {/* Team Members Grid */}
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-start max-w-5xl mx-auto gap-10 py-20 px-10">
+            <div className="max-w-screen-xl w-full mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 py-20 px-4 md:px-8">
                 <div className="grid gap-10">
                     {firstPart.map((member, idx) => (
                         <motion.div style={{ y: translateFirst }} key={"grid-1" + idx}>

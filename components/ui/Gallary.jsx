@@ -3,52 +3,52 @@ import Image from "next/image"
 const ImageGallery = () =>  {
   const images = [
     {
-      src: "/ImageGallary/?height=400&width=600",
+      src: "/ImageGallery/i11.jpg?height=400&width=600",
       alt: "Misty mountain peaks at sunrise",
       className: "col-span-1 row-span-1",
     },
     {
-      src: "/ImageGallery/i1.jpg?height=800&width=600",
+      src: "/ImageGallery/i2.jpg?height=800&width=600",
       alt: "Foggy forest road",
       className: "col-span-1 row-span-2",
     },
     {
-      src: "/ImageGallery/i9.jpg?height=800&width=800",
+      src: "/ImageGallery/i91.jpg?height=700&width=700",
       alt: "Mountain peaks under starry sky",
       className: "col-span-2 row-span-2",
     },
     {
-      src: "/ImageGallary/?height=800&width=600",
+      src: "/ImageGallery/i4.jpg?height=800&width=600",
       alt: "Misty mountain peaks with blue tones",
       className: "col-span-1 row-span-2",
     },
     {
-      src: "/ImageGallary/?height=400&width=600",
+      src: "/ImageGallery/i5.jpg?height=400&width=600",
       alt: "Foggy forest landscape",
       className: "col-span-1 row-span-1",
     },
     {
-      src: "/ImageGallary/?height=400&width=600",
+      src: "/ImageGallery/i6.jpg?height=400&width=600",
       alt: "Red and white mushroom",
       className: "col-span-1 row-span-1",
     },
     {
-      src: "/ImageGallary/?height=400&width=600",
+      src: "/ImageGallery/i31.jpg?height=400&width=600",
       alt: "Mountain landscape",
       className: "col-span-1 row-span-1",
     },
     {
-      src: "/ImageGallary/?height=400&width=600",
+      src: "/ImageGallery/i14.jpg?height=400&width=600",
       alt: "Forest scene",
       className: "col-span-1 row-span-1",
     },
     {
-      src: "/ImageGallary/?height=400&width=600",
+      src: "/ImageGallery/i13.jpg?height=400&width=600",
       alt: "Mountain vista",
       className: "col-span-2 row-span-1",
     },
     {
-      src: "/ImageGallary/?height=400&width=600",
+      src: "/ImageGallery/i12.jpg?height=400&width=600",
       alt: "Red and white mushroom",
       className: "col-span-1 row-span-1",
     },
