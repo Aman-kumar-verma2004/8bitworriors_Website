@@ -27,7 +27,7 @@ const Fotter = () => {
                             <h2 className="mb-6 text-sm font-semibold uppercase text-gray-900 dark:text-white">Help & Support</h2>
                             <ul className="flex flex-wrap text-sm flex-col space-y-4 text-gray-600 dark:text-gray-400">
                                 <li className="text-base"><a href="https://discord.gg/9negnSE25v" target="_blank" className="hover:underline">Discord</a></li>
-                                <li className="text-base"><a href="https://github.com/themesberg/flowbite-react/discussions" className="hover:underline">GitHub Discussions</a></li>
+                                <li className="text-base"><a href="" className="hover:underline">GitHub Discussions</a></li>
                             </ul>
                         </div>
                         <div>
