@@ -42,11 +42,12 @@ const Fotter = () => {
                     </div>
                 </div>
                 <hr className="my-6 border-gray-200 dark:border-gray-700 sm:mx-auto lg:my-8" />
-                <div className="w-full text-center">
-                    <div className="text-gray-500 dark:text-gray-400 sm:text-center text-base">
-                        © 2025 <a href="/" className="ml-1 hover:underline">8bit Warriors™ All Rights Reserved.</a>
-                    </div>
-                </div>
+                <div className="w-full px-4 sm:px-8 text-center overflow-hidden">
+    <div className="text-gray-500 dark:text-gray-400 text-base">
+        © 2025 <a href="/" className="ml-1 hover:underline">8bit Warriors™ All Rights Reserved.</a>
+    </div>
+</div>
+
             </div>
         </footer>
     );

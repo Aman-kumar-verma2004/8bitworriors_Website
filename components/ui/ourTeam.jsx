@@ -86,15 +86,18 @@ const TeamSection = ({ className }) => {
       </div>
 
       {/* See More Button */}
-      <div className="flex items-center justify-center">
-        <div className="relative inline-flex items-center justify-center group">
-          <Link href="/team">
-            <button className="relative inline-flex items-center justify-center px-8 py-3 text-base font-normal text-white bg-black border border-transparent rounded-full transition-all duration-200">
-              All Members
-            </button>
-          </Link>
-        </div>
-      </div>
+      <div className="relative inline-flex items-center justify-center mt-8 sm:mt-12 group">
+  <div className="absolute transition-all duration-200 rounded-full -inset-px bg-gradient-to-r from-green-100 to-green-700 group-hover:shadow-lg group-hover:shadow-green-500/50"></div>
+  <Link href="/team">
+    <button className="relative inline-flex items-center justify-center px-8 py-3 text-base font-normal text-white bg-black border border-transparent rounded-full transition-all duration-200">
+      All Members
+    </button>
+  </Link>
+</div>
+
+
+
+
     </div>
   );
 };
