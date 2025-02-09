@@ -45,7 +45,7 @@ const allTeamMembers = [
     {
         name: "Abhishek Parihar",
         role: "Tech Team",
-        image: "/Team Image/abhishek parihar.png",
+        image: "/Team Image/abhi1.jpg",
         socialLinks: {
             instagram: "#",
             github: "#",
