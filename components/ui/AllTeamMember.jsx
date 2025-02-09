@@ -281,4 +281,4 @@ const AllTeamMembers = () => {
     );
 };
 
-export default AllTeamMembers;
+export default AllTeamMembers;
