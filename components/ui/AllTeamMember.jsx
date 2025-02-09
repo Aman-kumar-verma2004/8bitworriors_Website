@@ -9,7 +9,7 @@ const allTeamMembers = [
         socialLinks: {
             instagram: "#",
             github: "#",
-            linkedin: "#",
+            linkedin: "https://www.linkedin.com/in/realharshgautam?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         },
     },
     {
@@ -17,9 +17,9 @@ const allTeamMembers = [
         role: "President",
         image: "/Team Image/president.jpg",
         socialLinks: {
-            instagram: "#",
-            github: "#",
-            linkedin: "#",
+            instagram: "https://www.instagram.com/justwalkedoutofabook?igsh=MXI1ZmI4NzUydXBvcQ==",
+            github: "https://github.com/Eviecoderella",
+            linkedin: "https://www.linkedin.com/in/aditi-patel-ux2005?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         },
     },
     {
@@ -27,9 +27,9 @@ const allTeamMembers = [
         role: "Secretary",
         image: "/Team Image/secretary.jpg",
         socialLinks: {
-            instagram: "#",
-            github: "#",
-            linkedin: "#",
+            instagram: "https://www.instagram.com/peeyushshandilya?utm_source=qr&igsh=MjFiMDhrN2swdGZr",
+            github: "https://github.com/Peeyush2003",
+            linkedin: "https://www.linkedin.com/in/peeyush-shandilya-536b5a279?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         },
     },
     {
@@ -37,9 +37,9 @@ const allTeamMembers = [
         role: "Tech Lead",
         image: "/Team Image/aman.jpg",
         socialLinks: {
-            instagram: "#",
-            github: "#",
-            linkedin: "#",
+            instagram: "https://www.instagram.com/itz_aman_7280/",
+            github: "https://github.com/Aman-kumar-verma2004",
+            linkedin: "https://www.linkedin.com/in/aman-kumar-verma-71104b24b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         }, 
     },
     {
@@ -47,7 +47,7 @@ const allTeamMembers = [
         role: "Tech Team",
         image: "/Team Image/abhi1.jpg",
         socialLinks: {
-            instagram: "#",
+            instagram: "https://www.instagram.com/abhishekparihar3213?igsh=MW1tZHoycWNpczRiOQ==",
             github: "#",
             linkedin: "#",
         },
@@ -57,9 +57,9 @@ const allTeamMembers = [
         role: "Tech team",
         image: "/Team Image/aniket.jpg",
         socialLinks: {
-            instagram: "#",
+            instagram: "https://www.instagram.com/5913_aniket?igsh=aGowZDlzZXpuY3px",
             github: "#",
-            linkedin: "#",
+            linkedin: "https://www.linkedin.com/in/aniket-jatav-abb2a6285?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         },
     },
     {
@@ -68,8 +68,8 @@ const allTeamMembers = [
         image: "/Team Image/vaidehi.jpg",
         socialLinks: {
             instagram: "#",
-            github: "#",
-            linkedin: "#",
+            github: "https://github.com/Vaidehiver2301",
+            linkedin: "https://www.linkedin.com/in/vaidehi-verma-345875288?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
         },
     },
     {
@@ -77,9 +77,9 @@ const allTeamMembers = [
         role: "Tech team",
         image: "/Team Image/Soumya.jpg",
         socialLinks: {
-            instagram: "#",
-            github: "#",
-            linkedin: "#",
+            instagram: "https://www.instagram.com/soumya_1611?igsh=Z21paWVmMjNjODk3",
+            github: "https://github.com/Soumyakhushi1116",
+            linkedin: "https://www.linkedin.com/in/soumya-singh-b4a628286?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         },
     },
     {
@@ -87,9 +87,9 @@ const allTeamMembers = [
         role: "VideoGrapher",
         image: "/Team Image/SARVAGYA SHARMA.jpg",
         socialLinks: {
-            instagram: "#",
+            instagram: "https://www.instagram.com/sarvagya_6600?igsh=eTZqcDlhMzFhbnJi",
             github: "#",
-            linkedin: "#",
+            linkedin: "https://www.linkedin.com/in/sarvagya-sharma-b76588217/",
         },
     },
     {
@@ -107,9 +107,9 @@ const allTeamMembers = [
         role: "Social Media Lead",
         image: "/Team Image/MUSKAN VISHWAKARMA.jpg",
         socialLinks: {
-            instagram: "#",
+            instagram: "https://www.instagram.com/btwlil_shine?igsh=bDZkOWo4MGVxM2po",
             github: "#",
-            linkedin: "#",
+            linkedin: "https://www.linkedin.com/in/muskan-vishwakarma-5b69892b6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         },
     },
     {
@@ -117,9 +117,9 @@ const allTeamMembers = [
         role: "Social Media Team",
         image: "/Team Image/RONAK GUPTA.jpg",
         socialLinks: {
-            instagram: "#",
-            github: "#",
-            linkedin: "#",
+            instagram: "https://www.instagram.com/ronak.gupta_12?utm_source=qr&igsh=MWhmZmZ1NXZ0dDg2Mw==",
+            github: "https://github.com/ronak-RG",
+            linkedin: "https://www.linkedin.com/in/ronak-gupta-755157326?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         },
     },
     {
@@ -127,9 +127,9 @@ const allTeamMembers = [
         role: "Event Management Lead",
         image: "/Team Image/REVAT SINGH PAWAR.jpg",
         socialLinks: {
-            instagram: "#",
+            instagram: "https://www.instagram.com/raunakqc?igsh=NWJ5ZnhoN3YzcmRr",
             github: "#",
-            linkedin: "#",
+            linkedin: "https://www.linkedin.com/in/revat-singh-pawar-a58023294",
         },
     },
     {
@@ -137,9 +137,9 @@ const allTeamMembers = [
         role: "Event Management Team",
         image: "/Team Image/SARANSH TIWARI.jpg",
         socialLinks: {
-            instagram: "#",
+            instagram: "https://www.instagram.com/saransh_t47?igsh=eWZldHh2M3Zod3U1",
             github: "#",
-            linkedin: "#",
+            linkedin: "https://in.linkedin.com/in/saransh-tiwari-2b28bb330",
         },
     },
     {
@@ -147,9 +147,9 @@ const allTeamMembers = [
         role: "Creative Head",
         image: "/Team Image/RISHI VASHISTHA.jpg",
         socialLinks: {
-            instagram: "#",
+            instagram: "https://www.instagram.com/rishivashistha_?igsh=MTJhb3lrbDluMGRvdg==",
             github: "#",
-            linkedin: "#",
+            linkedin: "https://www.linkedin.com/in/rishi-vashistha-181015242?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         },
     },
     {
@@ -157,9 +157,9 @@ const allTeamMembers = [
         role: "Creative Head",
         image: "/Team Image/RAJVEER SINGH PARMAR.jpg",
         socialLinks: {
-            instagram: "#",
+            instagram: "https://www.instagram.com/rajveer.exe?igsh=MXN3bXo5ajV2dDRsZg==",
             github: "#",
-            linkedin: "#",
+            linkedin: "https://www.linkedin.com/in/rajveer-singh-parmar-a072a324b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         },
     },
     {
@@ -167,7 +167,7 @@ const allTeamMembers = [
         role: "Creative Team",
         image: "/Team Image/Ayushman.jpg",
         socialLinks: {
-            instagram: "#",
+            instagram: "https://www.instagram.com/ayush.man2003?igsh=cGRkbWVxOW5rMjBv",
             github: "#",
             linkedin: "#",
         },
@@ -177,8 +177,8 @@ const allTeamMembers = [
         role: "Content Team",
         image: "/Team Image/KRITIKA MITTAL.jpg",
         socialLinks: {
-            instagram: "#",
-            github: "#",
+            instagram: "https://www.instagram.com/kritika.mittal_?igsh=MTBuMHFkYjdnYWV3eQ==",
+            github: "https://github.com/KritikaM11",
             linkedin: "#",
         },
     },
@@ -187,9 +187,9 @@ const allTeamMembers = [
         role: "Content Team",
         image: "/Team Image/radhika.jpg",
         socialLinks: {
-            instagram: "#",
-            github: "#",
-            linkedin: "#",
+            instagram: "https://www.instagram.com/radhikathakur_79?igsh=aHZ4MDAxaGUwYmd3",
+            github: "https://github.com/Radhika74",
+            linkedin: "https://www.linkedin.com/in/radhika-thakur-b43075260?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         },
     },
     {
@@ -197,9 +197,9 @@ const allTeamMembers = [
         role: "Marketing Lead",
         image: "/Team Image/ADITYA RAI.jpg",
         socialLinks: {
-            instagram: "#",
+            instagram: "https://www.instagram.com/adityarai_10?igsh=MXMxeDJwbWsyNG8yaQ==",
             github: "#",
-            linkedin: "#",
+            linkedin: "https://www.linkedin.com/in/adityarai10?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         },
     },
     {
@@ -208,8 +208,8 @@ const allTeamMembers = [
         image: "/Team Image/DIVYANSHU SINGH CHOUHAN.jpg",
         socialLinks: {
             instagram: "#",
-            github: "#",
-            linkedin: "#",
+            github: "https://github.com/TL-Divyanshu",
+            linkedin: "https://www.linkedin.com/in/divyanshu-singh-chouhan-626a60276?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B8EPMekA6SQqwhQ%2BeChdQoQ%3D%3D",
         },
     },
     {
@@ -217,9 +217,9 @@ const allTeamMembers = [
         role: "Marketing Team",
         image: "/Team Image/MANSHVI JAISWAL.jpg",
         socialLinks: {
-            instagram: "#",
-            github: "#",
-            linkedin: "#",
+            instagram: "https://www.instagram.com/manshvi_jaiswal?igsh=YmlpajlxbjU4aW12",
+            github: "https://github.com/Manshvijaiswal",
+            linkedin: "https://www.linkedin.com/in/manshvi-jaiswal-78a190286?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         },
     },
     {
@@ -227,9 +227,9 @@ const allTeamMembers = [
         role: "Graphic Team",
         image: "/Team Image/ABHISHEK GOSWAMI.jpg",
         socialLinks: {
-            instagram: "#",
-            github: "#",
-            linkedin: "#",
+            instagram: "https://www.instagram.com/goswami_abhishek_4511?igsh=bXVyNzhtZzB2cWFu",
+            github: "https://github.com/abhishekgoswami4511",
+            linkedin: "https://www.linkedin.com/in/abhishek-goswami-8981492a3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         },
     },
     {
@@ -237,9 +237,9 @@ const allTeamMembers = [
         role: "Graphic Team",
         image: "/Team Image/CHARU JAIN.jpg",
         socialLinks: {
-            instagram: "#",
+            instagram: "https://www.instagram.com/ft.charuu?igsh=bnRwMjV2bjZnY3Jv",
             github: "#",
-            linkedin: "#",
+            linkedin: "https://in.linkedin.com/in/charu-jain-10b36b277",
         },
     },
     {
@@ -247,9 +247,9 @@ const allTeamMembers = [
         role: "Research and Development",
         image: "/Team Image/KANCHAN KUSHWAHA.jpg",
         socialLinks: {
-            instagram: "#",
-            github: "#",
-            linkedin: "#",
+            instagram: "https://www.instagram.com/kaxchan._/?hl=en",
+            github: "https://github.com/kanchankushwaha1",
+            linkedin: "https://www.linkedin.com/in/kanchan-kushwaha/",
         },
     },
     {
@@ -257,9 +257,19 @@ const allTeamMembers = [
         role: "Research and Developemnt",
         image: "/Team Image/TWINKLE KASERA.jpg",
         socialLinks: {
-            instagram: "#",
+            instagram: "https://www.instagram.com/ktwin_kle?igsh=YzM5emM1NXBmNHh3",
             github: "#",
-            linkedin: "#",
+            linkedin: "https://www.linkedin.com/in/twinkle-kasera-b9594a30b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        },
+    },
+    {
+        name: "Krish",
+        role: "Research and Developemnt",
+        image: "/Team Image/TWINKLE KASERA.jpg",
+        socialLinks: {
+            instagram: "https://www.instagram.com/18noooodles?igsh=MXg4YWN6Y2ZqYm1ubg==",
+            github: "#",
+            linkedin: "https://www.linkedin.com/in/twinkle-kasera-b9594a30b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         },
     },
     

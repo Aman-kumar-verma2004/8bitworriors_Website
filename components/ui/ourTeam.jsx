@@ -9,33 +9,33 @@ import Link from "next/link";
 const teamMembers = [
   {
     name: "Harsh Gautam",
-    role: "Founder",
-    image: "/Team Image/founder.png",
-    socialLinks: {
-      instagram: "#",
-      github: "#",
-      linkedin: "#",
-    },
+        role: "Founder",
+        image: "/Team Image/founder.png",
+        socialLinks: {
+            instagram: "#",
+            github: "#",
+            linkedin: "https://www.linkedin.com/in/realharshgautam?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        },
   },
   {
     name: "Aditi Patel",
-    role: "President",
-    image: "/Team Image/president.jpg",
-    socialLinks: {
-      instagram: "#",
-      github: "#",
-      linkedin: "#",
-    },
+        role: "President",
+        image: "/Team Image/president.jpg",
+        socialLinks: {
+            instagram: "https://www.instagram.com/justwalkedoutofabook?igsh=MXI1ZmI4NzUydXBvcQ==",
+            github: "https://github.com/Eviecoderella",
+            linkedin: "https://www.linkedin.com/in/aditi-patel-ux2005?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        },
   },
   {
     name: "Peeyush Shandilya",
-    role: "Secretary",
-    image: "/Team Image/secretary.jpg",
-    socialLinks: {
-      instagram: "#",
-      github: "#",
-      linkedin: "#",
-    },
+        role: "Secretary",
+        image: "/Team Image/secretary.jpg",
+        socialLinks: {
+            instagram: "https://www.instagram.com/peeyushshandilya?utm_source=qr&igsh=MjFiMDhrN2swdGZr",
+            github: "https://github.com/Peeyush2003",
+            linkedin: "https://www.linkedin.com/in/peeyush-shandilya-536b5a279?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        },
   },
 ];
 
@@ -57,14 +57,14 @@ const TeamSection = ({ className }) => {
     <div className={cn("w-full flex flex-col items-center", className)} ref={gridRef}>
       {/* Meet Our Team Heading */}
       <h1 className="text-4xl font-bold text-center text-white py-6 mt-6">
-        Meet Our Team
+        MEET OUR TEAM
       </h1>
 
       {/* Team Members Grid */}
       <div className="max-w-screen-xl w-full mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 py-10 px-4 md:px-8">
         <div className="grid gap-10 place-items-center">
           {firstPart.map((member, idx) => (
-            <motion.div style={{ y: 0 }} key={`grid-1-${idx}`}>
+            <motion.div style={{ y: 0 }} key={`grid-1-${idx} `}>
               <TeamMember {...member} />
             </motion.div>
           ))}

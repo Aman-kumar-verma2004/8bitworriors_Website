@@ -19,21 +19,24 @@ import { FaLinkedin } from "react-icons/fa6";
                 <ul className="flex mt-2">
                     {socialLinks.instagram && (
                         <li className="mx-2.5 transform translate-y-10 transition-all duration-500 delay-\[0.2s\] opacity-0 group-hover:translate-y-0 group-hover:opacity-100">
-                            <a href={socialLinks?.instagram} className="text-white text-2xl">
+                            <a href={socialLinks?.instagram} target="_blank"
+                                rel="noopener noreferrer" className="text-white text-2xl">
                                 <IoLogoInstagram />
                             </a>
                         </li>
                     )}
                     {socialLinks.github && (
                         <li className="mx-2.5 transform translate-y-10 transition-all duration-500 delay-[0.4s] opacity-0 group-hover:translate-y-0 group-hover:opacity-100">
-                            <a href={socialLinks.github} className="text-white text-2xl">
+                            <a href={socialLinks.github} target="_blank"
+                                rel="noopener noreferrer" className="text-white text-2xl">
                                 <FaGithub/>
                             </a>
                         </li>
                     )}
                     {socialLinks.linkedin && (
                         <li className="mx-2.5 transform translate-y-10 transition-all duration-500 delay-[0.6s] opacity-0 group-hover:translate-y-0 group-hover:opacity-100">
-                            <a href={socialLinks.linkedin} className="text-white text-2xl">
+                            <a href={socialLinks.linkedin} target="_blank"
+                                rel="noopener noreferrer" className="text-white text-2xl">
                                 < FaLinkedin />
                             </a>
                         </li>
