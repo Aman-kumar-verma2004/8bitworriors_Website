@@ -65,7 +65,7 @@ const HeroSecton = () => {
                 Resources{" "}
               </Link>
               <Link
-                href="/Tools"
+                href="/tools"
                 className="text-base font-normal text-gray-400 transition-all duration-200 hover:text-white"
               >
                 {" "}
@@ -78,7 +78,7 @@ const HeroSecton = () => {
                 Events
               </Link>
               <Link
-                href="/About"
+                href="/about"
                 className="text-base font-normal text-gray-400 transition-all duration-200 hover:text-white"
               >
                 {" "}
@@ -98,7 +98,7 @@ const HeroSecton = () => {
                   Resources{" "}
                 </Link>
                 <Link
-                  href="/Tools"
+                  href="/tools"
                   className="text-base font-normal text-gray-400 transition-all duration-200 hover:text-white"
                 >
                   {" "}
@@ -111,7 +111,7 @@ const HeroSecton = () => {
                   Events
                 </Link>
                 <Link
-                  href="/About"
+                  href="/about"
                   className="text-base font-normal text-gray-400 transition-all duration-200 hover:text-white"
                 >
                   {" "}
