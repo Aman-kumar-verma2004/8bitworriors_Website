@@ -26,8 +26,8 @@ const Cursor = () => {
 
     return (
         <>
-            <div className="cursor"></div>
-            <div className="cursor-blur"></div>
+            
+            
         </>
     );
 };

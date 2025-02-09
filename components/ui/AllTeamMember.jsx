@@ -269,18 +269,19 @@ const allTeamMembers = [
 const AllTeamMembers = () => {
     return (
         <div className="max-w-6xl mx-auto py-20 px-5">
-            <h1 className="text-4xl font-bold text-center text-white pb-10 sm:text-5xl lg:text-6xl xl:text-8xl tracking-tight">
-  <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-200 via-green-600 to-green-900 drop-shadow-lg">
-    Our Core Team
-  </span>
-</h1>
+    <h1 className="text-4xl font-bold text-center text-white pb-10 sm:text-5xl lg:text-6xl xl:text-8xl tracking-tight">
+        <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-200 via-green-600 to-green-900 drop-shadow-lg">
+            Our Core Team
+        </span>
+    </h1>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-                {allTeamMembers.map((member, index) => (
-                    <TeamMember key={index} {...member} />
-                ))}
-            </div>
-        </div>
+    {/* Centering Cards on Mobile */}
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 place-items-center">
+        {allTeamMembers.map((member, index) => (
+            <TeamMember key={index} {...member} />
+        ))}
+    </div>
+</div>
     );
 };
 
