@@ -143,6 +143,16 @@ const allTeamMembers = [
         },
     },
     {
+        name: "dharmesh Krish mitaulia",
+        role: "Event Management Team",
+        image: "/Team Image/krish.png",
+        socialLinks: {
+            instagram: "https://www.instagram.com/18noooodles?igsh=MXg4YWN6Y2ZqYm1ubg==",
+            github: "#",
+            linkedin: "#",
+        },
+    },
+    {
         name: "Rishi Vashistha",
         role: "Creative Head",
         image: "/Team Image/RISHI VASHISTHA.jpg",
@@ -154,7 +164,7 @@ const allTeamMembers = [
     },
     {
         name: "Rajveer singh parmar",
-        role: "Creative Head",
+        role: "Creative Team",
         image: "/Team Image/RAJVEER SINGH PARMAR.jpg",
         socialLinks: {
             instagram: "https://www.instagram.com/rajveer.exe?igsh=MXN3bXo5ajV2dDRsZg==",
@@ -168,6 +178,16 @@ const allTeamMembers = [
         image: "/Team Image/Ayushman.jpg",
         socialLinks: {
             instagram: "https://www.instagram.com/ayush.man2003?igsh=cGRkbWVxOW5rMjBv",
+            github: "#",
+            linkedin: "#",
+        },
+    },
+    {
+        name: "rudransh Soni",
+        role: "Creative Team",
+        image: "/Team Image/rudransh.png",
+        socialLinks: {
+            instagram: "#",
             github: "#",
             linkedin: "#",
         },
@@ -262,16 +282,7 @@ const allTeamMembers = [
             linkedin: "https://www.linkedin.com/in/twinkle-kasera-b9594a30b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         },
     },
-    {
-        name: "Krish",
-        role: "Research and Developemnt",
-        image: "/Team Image/TWINKLE KASERA.jpg",
-        socialLinks: {
-            instagram: "https://www.instagram.com/18noooodles?igsh=MXg4YWN6Y2ZqYm1ubg==",
-            github: "#",
-            linkedin: "https://www.linkedin.com/in/twinkle-kasera-b9594a30b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        },
-    },
+    
     
     
 ];
