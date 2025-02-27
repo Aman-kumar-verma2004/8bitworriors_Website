@@ -41,14 +41,62 @@ const About = () => {
                 </h1>
 
                 {/* Responsive Course Cards */}
-                <div className="flex flex-wrap justify-center gap-8 md:gap-12 lg:gap-16 mt-12 w-full">
-                    <CourseCard imgSrc="/AboutUs/workshops.jpg" title="Specialized Workshops" description="Engage in immersive, hands-on learning sessions designed to cover cutting-edge tools, technologies, and programming languages, tailored for both beginners and advanced learners." />
-                    <CourseCard imgSrc="/AboutUs/hackathons.jpg" title="Hackathons and Competitive Platforms" description="Participate in dynamic hackathons and competitions that challenge your creativity and technical expertise while fostering collaboration and problem-solving skills." />
-                    <CourseCard imgSrc="/AboutUs/projects.jpg" title="Collaborative Projects and Innovation" description="Contribute to impactful team projects across diverse domains such as software development, robotics, artificial intelligence, and more, enhancing your practical knowledge and professional portfolio." />
-                    <CourseCard imgSrc="/AboutUs/mentorship.jpg" title="Mentorship and Career Guidance" description="Benefit from personalized guidance provided by experienced mentors and industry experts, helping you navigate challenges and achieve your technical and career aspirations." />
-                    <CourseCard imgSrc="/AboutUs/expert talks.jpg" title="Expert Talks and Industry Insights" description="Gain valuable insights through tech talks and guest lectures by industry leaders, keeping you informed about the latest trends and advancements in technology." />
-                    <CourseCard imgSrc="/AboutUs/Premium resouses.jpg" title="Access to Premium Resources" description="Leverage exclusive access to state-of-the-art tools, software, equipment, and curated learning materials to bring your ideas to life and achieve excellence." />
-                </div>
+                <div className="flex flex-wrap justify-center gap-8 md:gap-12 lg:gap-16 mt-12 w-full bg-black-100 p-8">
+  {[
+    {
+      imgSrc: "/AboutUs/workshops.jpg",
+      title: "Specialized Workshops",
+      description:
+        "Engage in immersive, hands-on learning sessions designed to cover cutting-edge tools, technologies, and programming languages, tailored for both beginners and advanced learners.",
+    },
+    {
+      imgSrc: "/AboutUs/hackathons.jpg",
+      title: "Hackathons and Competitive Platforms",
+      description:
+        "Participate in dynamic hackathons and competitions that challenge your creativity and technical expertise while fostering collaboration and problem-solving skills.",
+    },
+    {
+      imgSrc: "/AboutUs/projects.jpg",
+      title: "Collaborative Projects and Innovation",
+      description:
+        "Contribute to impactful team projects across diverse domains such as software development, robotics, artificial intelligence, and more, enhancing your practical knowledge and professional portfolio.",
+    },
+    {
+      imgSrc: "/AboutUs/mentorship.jpg",
+      title: "Mentorship and Career Guidance",
+      description:
+        "Benefit from personalized guidance provided by experienced mentors and industry experts, helping you navigate challenges and achieve your technical and career aspirations.",
+    },
+    {
+      imgSrc: "/AboutUs/expert talks.jpg",
+      title: "Expert Talks and Industry Insights",
+      description:
+        "Gain valuable insights through tech talks and guest lectures by industry leaders, keeping you informed about the latest trends and advancements in technology.",
+    },
+    {
+      imgSrc: "/AboutUs/Premium resouses.jpg",
+      title: "Access to Premium Resources",
+      description:
+        "Leverage exclusive access to state-of-the-art tools, software, equipment, and curated learning materials to bring your ideas to life and achieve excellence.",
+    },
+  ].map((course, index) => (
+    <div
+      key={index}
+      className="w-full sm:w-[300px] md:w-[320px] lg:w-[360px] bg-black border border-gray-300 rounded-lg overflow-hidden flex flex-col items-center shadow-md hover:shadow-green-400 hover:shadow-lg transition-all duration-300"
+    >
+      <img
+        src={course.imgSrc}
+        alt={course.title}
+        className="w-full h-48 object-cover"
+      />
+      <div className="p-4 text-center">
+        <h3 className="text-lg font-semibold">{course.title}</h3>
+        <p className="text-gray-600 mt-2">{course.description}</p>
+      </div>
+    </div>
+  ))}
+</div>
+
             </section>
 
             

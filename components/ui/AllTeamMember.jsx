@@ -145,7 +145,7 @@ const allTeamMembers = [
     {
         name: "dharmesh Krish mitaulia",
         role: "Event Management Team",
-        image: "/Team Image/krish.png",
+        image: "/Team Image/krish1.jpg",
         socialLinks: {
             instagram: "https://www.instagram.com/18noooodles?igsh=MXg4YWN6Y2ZqYm1ubg==",
             github: "#",
@@ -185,7 +185,7 @@ const allTeamMembers = [
     {
         name: "rudransh Soni",
         role: "Creative Team",
-        image: "/Team Image/rudransh.png",
+        image: "/Team Image/rudransh1.jpg",
         socialLinks: {
             instagram: "#",
             github: "#",
