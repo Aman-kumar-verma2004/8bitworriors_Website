@@ -6,7 +6,7 @@ import Fotter from "@/components/ui/Fotter.jsx";
 import { motion } from "framer-motion";
 import Features from "@/components/Features";
 import Gallary from "@/components/ui/Gallary"
-import OurTeam from "@/components/ui/OurTeam"
+import TeamSection from "@/components/ui/OurTeam"
 
 
 export default function Home() {
@@ -16,7 +16,7 @@ export default function Home() {
       <HeroSecton />
       <Features />
       <Gallary />
-      <OurTeam />
+      <TeamSection />
       <Fotter />
       
 
