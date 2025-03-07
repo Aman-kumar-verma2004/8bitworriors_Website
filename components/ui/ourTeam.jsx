@@ -10,7 +10,7 @@ const teamMembers = [
   {
     name: "Harsh Gautam",
     role: "Founder",
-    image: "/Team Image/founder.png",
+    image: "/Team/founder.png",
     socialLinks: {
       instagram: "#",
       github: "#",
@@ -20,7 +20,7 @@ const teamMembers = [
   {
     name: "Aditi Patel",
     role: "President",
-    image: "/Team Image/president.jpg",
+    image: "/Team/president.jpg",
     socialLinks: {
       instagram: "#",
       github: "#",
@@ -30,7 +30,7 @@ const teamMembers = [
   {
     name: "Peeyush Shandilya",
     role: "Secretary",
-    image: "/Team Image/secretary.jpg",
+    image: "/Team/secretary.jpg",
     socialLinks: {
       instagram: "#",
       github: "#",

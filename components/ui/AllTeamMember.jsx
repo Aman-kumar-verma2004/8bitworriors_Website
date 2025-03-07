@@ -5,7 +5,7 @@ const allTeamMembers = [
     {
         name: "Harsh Gautam",
         role: "Founder",
-        image: "/Team Image/founder.png",
+        image: "/Team/founder.png",
         socialLinks: {
             instagram: "#",
             github: "#",
@@ -15,7 +15,7 @@ const allTeamMembers = [
     {
         name: "Aman Kumar Verma",
         role: "Tech Lead",
-        image: "/Team Image/aman.jpg",
+        image: "/Team/aman.jpg",
         socialLinks: {
             instagram: "#",
             github: "#",
@@ -25,7 +25,7 @@ const allTeamMembers = [
     {
         name: "Vaidehi Verma",
         role: "Tech team",
-        image: "/Team Image/vaidehi.jpg",
+        image: "/Team/vaidehi.jpg",
         socialLinks: {
             instagram: "#",
             github: "#",
@@ -35,7 +35,7 @@ const allTeamMembers = [
     {
         name: "Abhishek Kumar",
         role: "Treasurer",
-        image: "/Team Image/savi.jpg",
+        image: "/Team/savi.jpg",
         socialLinks: {
             instagram: "#",
             github: "#",
@@ -45,7 +45,7 @@ const allTeamMembers = [
     {
         name: "Rewat Singh Pawar",
         role: "Event Management Lead",
-        image: "/Team Image/REVAT SINGH PAWAR.jpg",
+        image: "/Team/REVAT SINGH PAWAR.jpg",
         socialLinks: {
             instagram: "#",
             github: "#",
@@ -55,7 +55,7 @@ const allTeamMembers = [
     {
         name: "Rajveer Singh Parmar",
         role: "Creative Team",
-        image: "/Team Image/RAJVEER SINGH PARMAR.jpg",
+        image: "/Team/RAJVEER SINGH PARMAR.jpg",
         socialLinks: {
             instagram: "#",
             github: "#",
@@ -65,7 +65,7 @@ const allTeamMembers = [
     {
         name: "Radhika Thakur",
         role: "Content Team",
-        image: "/Team Image/radhika.jpg",
+        image: "/Team/radhika.jpg",
         socialLinks: {
             instagram: "#",
             github: "#",
@@ -75,7 +75,7 @@ const allTeamMembers = [
     {
         name: "Manshvi Jaiswal",
         role: "Marketing Team",
-        image: "/Team Image/MANSHVI JAISWAL.jpg",
+        image: "/Team/MANSHVI JAISWAL.jpg",
         socialLinks: {
             instagram: "#",
             github: "#",
@@ -85,7 +85,7 @@ const allTeamMembers = [
     {
         name: "Kanchan Kushwaha",
         role: "Reasearch and Development",
-        image: "/Team Image/KANCHAN KUSHWAHA.jpg",
+        image: "/Team/KANCHAN KUSHWAHA.jpg",
         socialLinks: {
             instagram: "#",
             github: "#",
@@ -95,7 +95,7 @@ const allTeamMembers = [
     {
         name: "Aditi Patel",
         role: "President",
-        image: "/Team Image/president.jpg",
+        image: "/Team/president.jpg",
         socialLinks: {
             instagram: "#",
             github: "#",
@@ -105,7 +105,7 @@ const allTeamMembers = [
     {
         name: "Abhishek Parihar",
         role: "Tech Team",
-        image: "/Team Image/abhishek parihar.png",
+        image: "/Team/abhishek parihar.png",
         socialLinks: {
             instagram: "#",
             github: "#",
@@ -115,7 +115,7 @@ const allTeamMembers = [
     {
         name: "Soumya Singh",
         role: "Tech team",
-        image: "/Team Image/Soumya.jpg",
+        image: "/Team/Soumya.jpg",
         socialLinks: {
             instagram: "#",
             github: "#",
@@ -125,7 +125,7 @@ const allTeamMembers = [
     {
         name: "Muskan Vishwakarma",
         role: "Social Media Lead",
-        image: "/Team Image/MUSKAN VISHWAKARMA.jpg",
+        image: "/Team/MUSKAN VISHWAKARMA.jpg",
         socialLinks: {
             instagram: "#",
             github: "#",
@@ -135,7 +135,7 @@ const allTeamMembers = [
     {
         name: "Saransh Tiwari",
         role: "Event Management Team",
-        image: "/Team Image/SARANSH TIWARI.jpg",
+        image: "/Team/SARANSH TIWARI.jpg",
         socialLinks: {
             instagram: "#",
             github: "#",
@@ -145,7 +145,7 @@ const allTeamMembers = [
     {
         name: "Ayushman Gupta",
         role: "Creative Team",
-        image: "/Team Image/Ayushman.jpg",
+        image: "/Team/Ayushman.jpg",
         socialLinks: {
             instagram: "#",
             github: "#",
@@ -155,7 +155,7 @@ const allTeamMembers = [
     {
         name: "Aditya Rai",
         role: "Marketing Lead",
-        image: "/Team Image/ADITYA RAI.jpg",
+        image: "/Team/ADITYA RAI.jpg",
         socialLinks: {
             instagram: "#",
             github: "#",
@@ -165,7 +165,7 @@ const allTeamMembers = [
     {
         name: "Abhishek Goswami",
         role: "Graphic Team",
-        image: "/Team Image/ABHISHEK GOSWAMI.jpg",
+        image: "/Team/ABHISHEK GOSWAMI.jpg",
         socialLinks: {
             instagram: "#",
             github: "#",
@@ -175,7 +175,7 @@ const allTeamMembers = [
     {
         name: "Twinkle Kasera",
         role: "Research and Developemnt",
-        image: "/Team Image/TWINKLE KASERA.jpg",
+        image: "/Team/TWINKLE KASERA.jpg",
         socialLinks: {
             instagram: "#",
             github: "#",
@@ -185,7 +185,7 @@ const allTeamMembers = [
     {
         name: "Peeyush Shandilya",
         role: "Secretary",
-        image: "/Team Image/secretary.jpg",
+        image: "/Team/secretary.jpg",
         socialLinks: {
             instagram: "#",
             github: "#",
@@ -195,7 +195,7 @@ const allTeamMembers = [
     {
         name: "Aniket Jatav",
         role: "Tech team",
-        image: "/Team Image/aniket.jpg",
+        image: "/Team/aniket.jpg",
         socialLinks: {
             instagram: "#",
             github: "#",
@@ -205,7 +205,7 @@ const allTeamMembers = [
     {
         name: "Sarvagya Sharma",
         role: "VideoGrapher",
-        image: "/Team Image/SARVAGYA SHARMA.jpg",
+        image: "/Team/SARVAGYA SHARMA.jpg",
         socialLinks: {
             instagram: "#",
             github: "#",
@@ -215,7 +215,7 @@ const allTeamMembers = [
     {
         name: "Ronak Gupta",
         role: "Social Media Team",
-        image: "/Team Image/RONAK GUPTA.jpg",
+        image: "/Team/RONAK GUPTA.jpg",
         socialLinks: {
             instagram: "#",
             github: "#",
@@ -225,7 +225,7 @@ const allTeamMembers = [
     {
         name: "Rishi Vasistha",
         role: "Creative Head",
-        image: "/Team Image/RISHI VASISTHA.jpg",
+        image: "/Team/RISHI VASISTHA.jpg",
         socialLinks: {
             instagram: "#",
             github: "#",
@@ -235,7 +235,7 @@ const allTeamMembers = [
     {
         name: "Kritika Mittal",
         role: "Content Team",
-        image: "/Team Image/KRITIKA MITTAL.jpg",
+        image: "/Team/KRITIKA MITTAL.jpg",
         socialLinks: {
             instagram: "#",
             github: "#",
@@ -245,7 +245,7 @@ const allTeamMembers = [
     {
         name: "Divyanshu Singh Chauhan",
         role: "MArketing Team",
-        image: "/Team Image/DIVYANSHU SINGH CHAUHAN.jpg",
+        image: "/Team/DIVYANSHU SINGH CHAUHAN.jpg",
         socialLinks: {
             instagram: "#",
             github: "#",
@@ -255,7 +255,7 @@ const allTeamMembers = [
     {
         name: "Charu Jain",
         role: "Graphic Team",
-        image: "/Team Image/CHARU JAIN.jpg",
+        image: "/Team/CHARU JAIN.jpg",
         socialLinks: {
             instagram: "#",
             github: "#",
