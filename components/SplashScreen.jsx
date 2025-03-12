@@ -15,12 +15,12 @@ const TechLoader = ({ onLoadingComplete = () => {} }) => {
           setTimeout(() => {
             setIsLoading(false);
             onLoadingComplete();
-          }, 600);
-          return 100;
+          }, 500);
+          return 80;
         }
         return prevProgress + Math.floor(Math.random() * 8) + 1;
       });
-    }, 120);
+    }, 80);
 
     return () => clearInterval(interval);
   }, [onLoadingComplete]);
@@ -41,7 +41,7 @@ const TechLoader = ({ onLoadingComplete = () => {} }) => {
               <span className="mx-1 text-green-400 text-4xl font-mono animate-pulse">/</span>
               <span className="text-green-400 text-4xl font-mono animate-pulse">&gt;</span>
             </div>
-            <h1 className="text-white font-bold text-5xl md:text-6xl tracking-tight">
+            <h1 className="text-white font-bold text-5xl md:text-6xl">
               8bit
             </h1>
             <h2 className="text-green-400 font-bold text-2xl md:text-3xl tracking-wider mt-1">
