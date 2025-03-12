@@ -57,7 +57,7 @@ const ImageGallery = () => {
   return (
     <div className="bg-black min-h-screen p-5 sm:p-10">
       <div className="container mx-auto text-center mb-6 sm:mb-8">
-        <h1 className="text-white text-4xl sm:text-4xl font-bold whitespace-nowrap ">Image Gallery</h1>
+        <h1 className="text-white text-4xl sm:text-4xl font-bold whitespace-nowrap ">IMAGE GALLERY</h1>
       </div>
       <div className="container mx-auto">
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-2 sm:gap-4 auto-rows-[150px] sm:auto-rows-[200px]">

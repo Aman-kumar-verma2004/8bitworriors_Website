@@ -7,15 +7,15 @@ import EventList from "@/components/event/EventList"
 import EventModal from "@/components/event/EventModel" 
 
 const upcomingEvents = [
-  {
-    id: 9,
-    title: "AI Workshop",
-    date: "2025-03-15",
-    location: "Tech Hub, Room 101",
-    description:
-      "Join us for an exciting workshop on the latest AI technologies and their applications in various industries.",
-    image: "/7.png?height=200&width=300",
-  },
+  // {
+  //   id: 9,
+  //   title: "AI Workshop",
+  //   date: "2025-03-15",
+  //   location: "Tech Hub, Room 101",
+  //   description:
+  //     "Join us for an exciting workshop on the latest AI technologies and their applications in various industries.",
+  //   image: "/7.png?height=200&width=300",
+  // },
   // {
   //   id: 2,
   //   title: "Hackathon 2025",

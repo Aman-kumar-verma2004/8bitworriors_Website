@@ -2,10 +2,12 @@ import React from 'react';
 
 const CourseCard = ({ imgSrc, title, description }) => {
     return (
-        <div className="course-card bg-gray-800 p-6 rounded-lg mb-8 transition-transform transform hover:scale-110 shadow-lg">
-            <img src={imgSrc} alt={title} className="w-full h-48 object-cover rounded-md mb-4" />
-            <h3 className="text-xl font-semibold text-white mb-2">{title}</h3>
-            <p className="text-gray-300">{description}</p>
+        <div className="bg-gray-900 text-white rounded-lg shadow-lg p-6 w-full sm:w-[48%] lg:w-[30%] min-h-auto flex flex-col items-center justify-between text-center overflow-hidden">
+            <img src={imgSrc} alt={title} className="w-full max-w-[250px] h-auto object-cover rounded-md mb-4" />
+            <h2 className="text-lg font-semibold">{title}</h2>
+            <p className="text-sm mt-2 break-words leading-6 max-w-full text-wrap overflow-hidden">
+                {description}
+            </p>
         </div>
     );
 };
