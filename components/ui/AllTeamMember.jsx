@@ -5,7 +5,7 @@ const allTeamMembers = [
     {
         name: "Harsh Gautam",
         role: "Founder",
-        image: "/Team Image/founder.png",
+        image: "/Team/founder.png",
         socialLinks: {
             instagram: "#",
             github: "#",
@@ -35,7 +35,7 @@ const allTeamMembers = [
     {
         name: "Aman Kumar Verma",
         role: "Tech Lead",
-        image: "/Team Image/aman.jpg",
+        image: "/Team/aman.jpg",
         socialLinks: {
             instagram: "https://www.instagram.com/itz_aman_7280/",
             github: "https://github.com/Aman-kumar-verma2004",
@@ -43,9 +43,10 @@ const allTeamMembers = [
         }, 
     },
     {
-        name: "Abhishek Parihar",
-        role: "Tech Team",
-        image: "/Team Image/abhi1.jpg",
+
+        name: "Vaidehi Verma",
+        role: "Tech team",
+        image: "/Team/vaidehi.jpg",
         socialLinks: {
             instagram: "https://www.instagram.com/abhishekparihar3213?igsh=MW1tZHoycWNpczRiOQ==",
             github: "#",
@@ -53,9 +54,10 @@ const allTeamMembers = [
         },
     },
     {
-        name: "Aniket Jatav",
-        role: "Tech team",
-        image: "/Team Image/aniket.jpg",
+
+        name: "Abhishek Kumar",
+        role: "Treasurer",
+        image: "/Team/savi.jpg",
         socialLinks: {
             instagram: "https://www.instagram.com/5913_aniket?igsh=aGowZDlzZXpuY3px",
             github: "#",
@@ -63,9 +65,10 @@ const allTeamMembers = [
         },
     },
     {
-        name: "Vaidehi Verma",
-        role: "Tech team",
-        image: "/Team Image/vaidehi.jpg",
+
+        name: "Rewat Singh Pawar",
+        role: "Event Management Lead",
+        image: "/Team/REVAT SINGH PAWAR.jpg",
         socialLinks: {
             instagram: "#",
             github: "https://github.com/Vaidehiver2301",
@@ -73,9 +76,10 @@ const allTeamMembers = [
         },
     },
     {
-        name: "Soumya Singh",
-        role: "Tech team",
-        image: "/Team Image/Soumya.jpg",
+
+        name: "Rajveer Singh Parmar",
+        role: "Creative Team",
+        image: "/Team/RAJVEER SINGH PARMAR.jpg",
         socialLinks: {
             instagram: "https://www.instagram.com/soumya_1611?igsh=Z21paWVmMjNjODk3",
             github: "https://github.com/Soumyakhushi1116",
@@ -83,9 +87,10 @@ const allTeamMembers = [
         },
     },
     {
-        name: "Sarvagya Sharma",
-        role: "VideoGrapher",
-        image: "/Team Image/SARVAGYA SHARMA.jpg",
+
+        name: "Radhika Thakur",
+        role: "Content Team",
+        image: "/Team/radhika.jpg",
         socialLinks: {
             instagram: "https://www.instagram.com/sarvagya_6600?igsh=eTZqcDlhMzFhbnJi",
             github: "#",
@@ -93,9 +98,10 @@ const allTeamMembers = [
         },
     },
     {
-        name: "Abhishek Kumar",
-        role: "Treasurer",
-        image: "/Team Image/savi.jpg",
+
+        name: "Manshvi Jaiswal",
+        role: "Marketing Team",
+        image: "/Team/MANSHVI JAISWAL.jpg",
         socialLinks: {
             instagram: "#",
             github: "#",
@@ -103,9 +109,10 @@ const allTeamMembers = [
         },
     },
     {
-        name: "Muskan Vishwakarma",
-        role: "Social Media Lead",
-        image: "/Team Image/MUSKAN VISHWAKARMA.jpg",
+
+        name: "Kanchan Kushwaha",
+        role: "Reasearch and Development",
+        image: "/Team/KANCHAN KUSHWAHA.jpg",
         socialLinks: {
             instagram: "https://www.instagram.com/btwlil_shine?igsh=bDZkOWo4MGVxM2po",
             github: "#",
@@ -113,9 +120,10 @@ const allTeamMembers = [
         },
     },
     {
-        name: "Ronak Gupta",
-        role: "Social Media Team",
-        image: "/Team Image/RONAK GUPTA.jpg",
+
+        name: "Aditi Patel",
+        role: "President",
+        image: "/Team/president.jpg",
         socialLinks: {
             instagram: "https://www.instagram.com/ronak.gupta_12?utm_source=qr&igsh=MWhmZmZ1NXZ0dDg2Mw==",
             github: "https://github.com/ronak-RG",
@@ -123,9 +131,10 @@ const allTeamMembers = [
         },
     },
     {
-        name: "Revat Singh Pawar",
-        role: "Event Management Lead",
-        image: "/Team Image/REVAT SINGH PAWAR.jpg",
+
+        name: "Abhishek Parihar",
+        role: "Tech Team",
+        image: "/Team/abhishek parihar.png",
         socialLinks: {
             instagram: "https://www.instagram.com/raunakqc?igsh=NWJ5ZnhoN3YzcmRr",
             github: "#",
@@ -133,9 +142,10 @@ const allTeamMembers = [
         },
     },
     {
-        name: "Saransh Tiwari",
-        role: "Event Management Team",
-        image: "/Team Image/SARANSH TIWARI.jpg",
+
+        name: "Soumya Singh",
+        role: "Tech team",
+        image: "/Team/Soumya.jpg",
         socialLinks: {
             instagram: "https://www.instagram.com/saransh_t47?igsh=eWZldHh2M3Zod3U1",
             github: "#",
@@ -143,9 +153,10 @@ const allTeamMembers = [
         },
     },
     {
-        name: "dharmesh Krish mitaulia",
-        role: "Event Management Team",
-        image: "/Team Image/krish1.jpg",
+
+        name: "Muskan Vishwakarma",
+        role: "Social Media Lead",
+        image: "/Team/MUSKAN VISHWAKARMA.jpg",
         socialLinks: {
             instagram: "https://www.instagram.com/18noooodles?igsh=MXg4YWN6Y2ZqYm1ubg==",
             github: "#",
@@ -153,9 +164,10 @@ const allTeamMembers = [
         },
     },
     {
-        name: "Rishi Vashistha",
-        role: "Creative Head",
-        image: "/Team Image/RISHI VASHISTHA.jpg",
+
+        name: "Saransh Tiwari",
+        role: "Event Management Team",
+        image: "/Team/SARANSH TIWARI.jpg",
         socialLinks: {
             instagram: "https://www.instagram.com/rishivashistha_?igsh=MTJhb3lrbDluMGRvdg==",
             github: "#",
@@ -165,7 +177,8 @@ const allTeamMembers = [
     {
         name: "Rajveer singh parmar",
         role: "Creative Team",
-        image: "/Team Image/RAJVEER SINGH PARMAR.jpg",
+
+        image: "/Team/Ayushman.jpg",
         socialLinks: {
             instagram: "https://www.instagram.com/rajveer.exe?igsh=MXN3bXo5ajV2dDRsZg==",
             github: "#",
@@ -173,9 +186,10 @@ const allTeamMembers = [
         },
     },
     {
-        name: "Ayushman Gupta",
-        role: "Creative Team",
-        image: "/Team Image/Ayushman.jpg",
+
+        name: "Aditya Rai",
+        role: "Marketing Lead",
+        image: "/Team/ADITYA RAI.jpg",
         socialLinks: {
             instagram: "https://www.instagram.com/ayush.man2003?igsh=cGRkbWVxOW5rMjBv",
             github: "#",
@@ -183,9 +197,10 @@ const allTeamMembers = [
         },
     },
     {
-        name: "rudransh Soni",
-        role: "Creative Team",
-        image: "/Team Image/rudransh1.jpg",
+
+        name: "Abhishek Goswami",
+        role: "Graphic Team",
+        image: "/Team/ABHISHEK GOSWAMI.jpg",
         socialLinks: {
             instagram: "#",
             github: "#",
@@ -193,9 +208,10 @@ const allTeamMembers = [
         },
     },
     {
-        name: "Kritika Mittal",
-        role: "Content Team",
-        image: "/Team Image/KRITIKA MITTAL.jpg",
+
+        name: "Twinkle Kasera",
+        role: "Research and Developemnt",
+        image: "/Team/TWINKLE KASERA.jpg",
         socialLinks: {
             instagram: "https://www.instagram.com/kritika.mittal_?igsh=MTBuMHFkYjdnYWV3eQ==",
             github: "https://github.com/KritikaM11",
@@ -203,9 +219,10 @@ const allTeamMembers = [
         },
     },
     {
-        name: "Radhika Thakur",
-        role: "Content Team",
-        image: "/Team Image/radhika.jpg",
+
+        name: "Peeyush Shandilya",
+        role: "Secretary",
+        image: "/Team/secretary.jpg",
         socialLinks: {
             instagram: "https://www.instagram.com/radhikathakur_79?igsh=aHZ4MDAxaGUwYmd3",
             github: "https://github.com/Radhika74",
@@ -213,9 +230,10 @@ const allTeamMembers = [
         },
     },
     {
-        name: "Aditya Rai",
-        role: "Marketing Lead",
-        image: "/Team Image/ADITYA RAI.jpg",
+
+        name: "Aniket Jatav",
+        role: "Tech team",
+        image: "/Team/aniket.jpg",
         socialLinks: {
             instagram: "https://www.instagram.com/adityarai_10?igsh=MXMxeDJwbWsyNG8yaQ==",
             github: "#",
@@ -223,9 +241,10 @@ const allTeamMembers = [
         },
     },
     {
-        name: "Divyanshu Singh Chauhan",
-        role: "Marketing Team",
-        image: "/Team Image/DIVYANSHU SINGH CHOUHAN.jpg",
+
+        name: "Sarvagya Sharma",
+        role: "VideoGrapher",
+        image: "/Team/SARVAGYA SHARMA.jpg",
         socialLinks: {
             instagram: "#",
             github: "https://github.com/TL-Divyanshu",
@@ -233,9 +252,10 @@ const allTeamMembers = [
         },
     },
     {
-        name: "Manshvi Jaiswal",
-        role: "Marketing Team",
-        image: "/Team Image/MANSHVI JAISWAL.jpg",
+
+        name: "Ronak Gupta",
+        role: "Social Media Team",
+        image: "/Team/RONAK GUPTA.jpg",
         socialLinks: {
             instagram: "https://www.instagram.com/manshvi_jaiswal?igsh=YmlpajlxbjU4aW12",
             github: "https://github.com/Manshvijaiswal",
@@ -243,9 +263,10 @@ const allTeamMembers = [
         },
     },
     {
-        name: "Abhishek Goswami",
-        role: "Graphic Team",
-        image: "/Team Image/ABHISHEK GOSWAMI.jpg",
+
+        name: "Rishi Vasistha",
+        role: "Creative Head",
+        image: "/Team/RISHI VASISTHA.jpg",
         socialLinks: {
             instagram: "https://www.instagram.com/goswami_abhishek_4511?igsh=bXVyNzhtZzB2cWFu",
             github: "https://github.com/abhishekgoswami4511",
@@ -253,9 +274,10 @@ const allTeamMembers = [
         },
     },
     {
-        name: "Charu Jain",
-        role: "Graphic Team",
-        image: "/Team Image/CHARU JAIN.jpg",
+
+        name: "Kritika Mittal",
+        role: "Content Team",
+        image: "/Team/KRITIKA MITTAL.jpg",
         socialLinks: {
             instagram: "https://www.instagram.com/ft.charuu?igsh=bnRwMjV2bjZnY3Jv",
             github: "#",
@@ -263,9 +285,10 @@ const allTeamMembers = [
         },
     },
     {
-        name: "KANCHAN KUSHWAHA",
-        role: "Research and Development",
-        image: "/Team Image/KANCHAN KUSHWAHA.jpg",
+
+        name: "Divyanshu Singh Chauhan",
+        role: "MArketing Team",
+        image: "/Team/DIVYANSHU SINGH CHAUHAN.jpg",
         socialLinks: {
             instagram: "https://www.instagram.com/kaxchan._/?hl=en",
             github: "https://github.com/kanchankushwaha1",
@@ -273,9 +296,10 @@ const allTeamMembers = [
         },
     },
     {
-        name: "Twinkle Kasera",
-        role: "Research and Developemnt",
-        image: "/Team Image/TWINKLE KASERA.jpg",
+
+        name: "Charu Jain",
+        role: "Graphic Team",
+        image: "/Team/CHARU JAIN.jpg",
         socialLinks: {
             instagram: "https://www.instagram.com/ktwin_kle?igsh=YzM5emM1NXBmNHh3",
             github: "#",
@@ -297,7 +321,7 @@ const AllTeamMembers = () => {
     </h1>
 
     {/* Centering Cards on Mobile */}
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 place-items-center">
+    <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-10 place-items-center">
         {allTeamMembers.map((member, index) => (
             <TeamMember key={index} {...member} />
         ))}

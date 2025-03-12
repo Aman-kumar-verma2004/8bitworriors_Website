@@ -8,7 +8,7 @@ import Link from "next/link";
 
 const teamMembers = [
   {
-    name: "Harsh Gautam",
+        name: "Harsh Gautam",
         role: "Founder",
         image: "/Team Image/founder.png",
         socialLinks: {
@@ -36,6 +36,26 @@ const teamMembers = [
             github: "https://github.com/Peeyush2003",
             linkedin: "https://www.linkedin.com/in/peeyush-shandilya-536b5a279?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         },
+  },
+  {
+    name: "Aditi Patel",
+    role: "President",
+    image: "/Team/president.jpg",
+    socialLinks: {
+      instagram: "#",
+      github: "#",
+      linkedin: "#",
+    },
+  },
+  {
+    name: "Peeyush Shandilya",
+    role: "Secretary",
+    image: "/Team/secretary.jpg",
+    socialLinks: {
+      instagram: "#",
+      github: "#",
+      linkedin: "#",
+    },
   },
 ];
 

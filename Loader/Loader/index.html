@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dark Greenish Loading Animation</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      overflow: hidden;
+      background-color: #121212; /* Dark background for the body */
+    }
+
+    #main-content {
+      padding: 2rem;
+      opacity: 0;
+      transition: opacity 0.6s ease-in;
+      height: 100vh;
+      display: none;
+      color: #ffffff; /* Light text color for contrast */
+    }
+
+    #loading-screen {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(135deg, #0A1F0A 0%, #1A3A1A 50%, #2E8B57 100%); /* Darker gradient */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 9999;
+      transition: opacity 0.5s ease-out;
+      overflow: hidden;
+    }
+
+    .image-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+      position: relative;
+    }
+
+    .growing-image {
+      width: 20vw; /* Responsive width */
+      height: 20vw; /* Responsive height */
+      max-width: 100px; /* Limit maximum size */
+      max-height: 100px; /* Limit maximum size */
+      background-image: url('./3.png');
+      background-size: cover;
+      background-position: center;
+      opacity: 0;
+      animation: growAndFade 3.5s forwards;
+      border-radius: 50%;
+      position: absolute;
+      box-shadow: 0 0 50px rgba(0, 0, 0, 0.5); /* Darker shadow */
+    }
+
+    .wave {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      background-color: rgba(0, 0, 0, 0.3); /* Darker waves */
+      animation: wave 4s infinite;
+    }
+
+    .wave:nth-child(2) {
+      animation-delay: 0.5s;
+    }
+
+    .wave:nth-child(3) {
+      animation-delay: 1s;
+    }
+
+    @keyframes growAndFade {
+      0% {
+        transform: scale(0.1);
+        opacity: 0;
+      }
+      20% {
+        transform: scale(2); /* Smaller scale for mobile */
+        opacity: 0.5;
+      }
+      50% {
+        transform: scale(4); /* Smaller scale for mobile */
+        opacity: 0.8;
+      }
+      80% {
+        transform: scale(6); /* Smaller scale for mobile */
+        opacity: 0.6;
+      }
+      100% {
+        transform: scale(8); /* Smaller scale for mobile */
+        opacity: 0;
+      }
+    }
+
+    @keyframes wave {
+      0% {
+        transform: scale(0);
+        opacity: 1;
+      }
+      100% {
+        transform: scale(5); /* Smaller scale for mobile */
+        opacity: 0;
+      }
+    }
+
+    /* Media Queries for Mobile Devices */
+    @media (max-width: 768px) {
+      .growing-image {
+        width: 30vw; /* Larger logo on smaller screens */
+        height: 30vw;
+        max-width: 150px; /* Adjust maximum size */
+        max-height: 150px;
+      }
+
+      @keyframes growAndFade {
+        0% {
+          transform: scale(0.1);
+          opacity: 0;
+        }
+        20% {
+          transform: scale(1.5); /* Adjusted scale for mobile */
+          opacity: 0.5;
+        }
+        50% {
+          transform: scale(3); /* Adjusted scale for mobile */
+          opacity: 0.8;
+        }
+        80% {
+          transform: scale(4.5); /* Adjusted scale for mobile */
+          opacity: 0.6;
+        }
+        100% {
+          transform: scale(6); /* Adjusted scale for mobile */
+          opacity: 0;
+        }
+      }
+
+      @keyframes wave {
+        0% {
+          transform: scale(0);
+          opacity: 1;
+        }
+        100% {
+          transform: scale(4); /* Adjusted scale for mobile */
+          opacity: 0;
+        }
+      }
+    }
+  </style>
+</head>
+<body>
+  <div id="loading-screen">
+    <div class="image-container">
+      <div class="wave"></div>
+      <div class="wave"></div>
+      <div class="wave"></div>
+      <div class="growing-image"></div>
+    </div>
+  </div>
+
+  <div id="main-content">
+    <h1>Welcome to the Website!</h1>
+    <p>Your website content goes here.</p>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      setTimeout(function() {
+        const loadingScreen = document.getElementById('loading-screen');
+        const mainContent = document.getElementById('main-content');
+        
+        loadingScreen.style.opacity = '0';
+        
+        mainContent.style.display = 'block';
+        
+        setTimeout(function() {
+          mainContent.style.opacity = '1';
+        }, 100);
+        
+        setTimeout(function() {
+          loadingScreen.style.display = 'none';
+        }, 500);
+      }, 3500);
+    });
+  </script>
+</body>
+</html>
