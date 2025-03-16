@@ -26,7 +26,7 @@ const TechLoader = ({ onLoadingComplete = () => {} }) => {
   }, [onLoadingComplete]);
 
   return (
-    <div className="relative min-h-screen">
+    <div className="relative  ">
       {/* Loading Screen */}
       <div 
         className={`fixed inset-0 bg-gray-900 z-50 flex flex-col items-center justify-center transition-opacity duration-500 ${

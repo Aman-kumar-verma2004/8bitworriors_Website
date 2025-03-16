@@ -44,6 +44,28 @@ const allTeamMembers = [
     },
     {
 
+        name: "Aniket Jatav",
+        role: "Tech team",
+        image: "/Team/AniketBro.jpg",
+        socialLinks: {
+            instagram: "https://www.instagram.com/5913_aniket/",
+            github: "https://github.com/enoughio",
+            linkedin: "https://www.linkedin.com/in/aniket-jatav-abb2a6285/",
+        },
+    },
+    {
+
+        name: "Abhishek Parihar",
+        role: "Tech Team",
+        image: "/Team/abhishek parihar.png",
+        socialLinks: {
+            instagram: "https://www.instagram.com/abhishekparihar3213/",
+            github: "#",
+            linkedin: "https://www.linkedin.com/in/abhishek-parihar-006461255/",
+        },
+    },
+    {
+
         name: "Vaidehi Verma",
         role: "Tech team",
         image: "/Team/vaidehi.jpg",
@@ -51,6 +73,17 @@ const allTeamMembers = [
             instagram: "https://www.instagram.com/abhishekparihar3213?igsh=MW1tZHoycWNpczRiOQ==",
             github: "#",
             linkedin: "#",
+        },
+    },
+    {
+
+        name: "Soumya Singh",
+        role: "Tech team",
+        image: "/Team/Soumya.jpg",
+        socialLinks: {
+            instagram: "https://www.instagram.com/saransh_t47?igsh=eWZldHh2M3Zod3U1",
+            github: "#",
+            linkedin: "https://in.linkedin.com/in/saransh-tiwari-2b28bb330",
         },
     },
     {
@@ -121,8 +154,8 @@ const allTeamMembers = [
     },
     {
 
-        name: "Aditi Patel",
-        role: "President",
+        name: "Ronak Gupta",
+        role: "Social Media Team",
         image: "/Team/president.jpg",
         socialLinks: {
             instagram: "https://www.instagram.com/ronak.gupta_12?utm_source=qr&igsh=MWhmZmZ1NXZ0dDg2Mw==",
@@ -130,28 +163,8 @@ const allTeamMembers = [
             linkedin: "https://www.linkedin.com/in/ronak-gupta-755157326?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         },
     },
-    {
-
-        name: "Abhishek Parihar",
-        role: "Tech Team",
-        image: "/Team/abhishek parihar.png",
-        socialLinks: {
-            instagram: "https://www.instagram.com/raunakqc?igsh=NWJ5ZnhoN3YzcmRr",
-            github: "#",
-            linkedin: "https://www.linkedin.com/in/revat-singh-pawar-a58023294",
-        },
-    },
-    {
-
-        name: "Soumya Singh",
-        role: "Tech team",
-        image: "/Team/Soumya.jpg",
-        socialLinks: {
-            instagram: "https://www.instagram.com/saransh_t47?igsh=eWZldHh2M3Zod3U1",
-            github: "#",
-            linkedin: "https://in.linkedin.com/in/saransh-tiwari-2b28bb330",
-        },
-    },
+    
+   
     {
 
         name: "Muskan Vishwakarma",
@@ -229,17 +242,7 @@ const allTeamMembers = [
             linkedin: "https://www.linkedin.com/in/radhika-thakur-b43075260?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         },
     },
-    {
 
-        name: "Aniket Jatav",
-        role: "Tech team",
-        image: "/Team/aniket.jpg",
-        socialLinks: {
-            instagram: "https://www.instagram.com/adityarai_10?igsh=MXMxeDJwbWsyNG8yaQ==",
-            github: "#",
-            linkedin: "https://www.linkedin.com/in/adityarai10?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        },
-    },
     {
 
         name: "Sarvagya Sharma",
